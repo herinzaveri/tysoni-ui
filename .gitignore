@@ -15,6 +15,9 @@ package-lock.json
 /out/
 
 # production
+.rollup.cache*
+storybook-static
+/dist
 /build
 
 # misc
