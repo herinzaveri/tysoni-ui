@@ -32,9 +32,7 @@ export default [
       postcss({
         extensions: ['.css'],
         sourceMap: true,
-        modules: true,
-        inject: true,
-        xtract: false,
+        extract: 'style.css',
       }),
     ],
   },
